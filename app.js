@@ -16,7 +16,7 @@ var app = express();
 var server = require('http').createServer(app);
 var io = require('socket.io')(server, {
   cors: {
-    origin: "http://192.168.1.2:3001",  // ตั้งค่า origin ของ client
+    origin: process.env.ORIGIN_URL || "http://localhost:3001",  // ตั้งค่า origin ของ client
     methods: ["GET", "POST"]
   }
 });
