@@ -1,0 +1,24 @@
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1122:18)
+    at afterConnectMultiple (node:net:1689:7)
+    --------------------
+    at Protocol._enqueue (C:\Users\forza\Downloads\sd\.1\food_delivery_node\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\forza\Downloads\sd\.1\food_delivery_node\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (C:\Users\forza\Downloads\sd\.1\food_delivery_node\node_modules\mysql\lib\Connection.js:116:18)
+    at reconnect (C:\Users\forza\Downloads\sd\.1\food_delivery_node\helpers\db_helpers.js:18:16)
+    at Object.query (C:\Users\forza\Downloads\sd\.1\food_delivery_node\helpers\db_helpers.js:76:13)
+    at C:\Users\forza\Downloads\sd\.1\food_delivery_node\controllers\admin_controller.js:1178:12
+    at Object.CheckParameterValid (C:\Users\forza\Downloads\sd\.1\food_delivery_node\helpers\helpers.js:69:20)
+    at checkAccessToken (C:\Users\forza\Downloads\sd\.1\food_delivery_node\controllers\admin_controller.js:1177:12)
+    at C:\Users\forza\Downloads\sd\.1\food_delivery_node\controllers\admin_controller.js:673:9
+    at Layer.handle [as handle_request] (C:\Users\forza\Downloads\sd\.1\food_delivery_node\node_modules\express\lib\router\layer.js:95:5)AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1122:18)
+    at afterConnectMultiple (node:net:1689:7)
+    --------------------
+    at Protocol._enqueue (C:\Users\forza\Downloads\sd\.1\food_delivery_node\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\forza\Downloads\sd\.1\food_delivery_node\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (C:\Users\forza\Downloads\sd\.1\food_delivery_node\node_modules\mysql\lib\Connection.js:116:18)
+    at reconnect (C:\Users\forza\Downloads\sd\.1\food_delivery_node\helpers\db_helpers.js:18:16)
+    at Timeout._onTimeout (C:\Users\forza\Downloads\sd\.1\food_delivery_node\helpers\db_helpers.js:25:17)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)

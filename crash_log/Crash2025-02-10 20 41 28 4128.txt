@@ -1,0 +1,4 @@
+ReferenceError: phone is not defined
+    at Query.onResult (C:\Users\forza\Downloads\sd\.1\food_delivery_node\app.js:86:54)
+    at C:\Users\forza\Downloads\sd\.1\food_delivery_node\node_modules\mysql2\lib\commands\query.js:90:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)

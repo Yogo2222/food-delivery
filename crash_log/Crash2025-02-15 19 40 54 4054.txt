@@ -1,0 +1,14 @@
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1122:18)
+    at afterConnectMultiple (node:net:1689:7)
+    --------------------
+    at Protocol._enqueue (C:\Users\forza\Downloads\sd\.1\food_delivery_node\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\forza\Downloads\sd\.1\food_delivery_node\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (C:\Users\forza\Downloads\sd\.1\food_delivery_node\node_modules\mysql\lib\Connection.js:116:18)
+    at reconnect (C:\Users\forza\Downloads\sd\.1\food_delivery_node\helpers\db_helpers.js:18:16)
+    at Object.<anonymous> (C:\Users\forza\Downloads\sd\.1\food_delivery_node\helpers\db_helpers.js:12:1)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Module._load (node:internal/modules/cjs/loader:1104:12)
+    at Module.require (node:internal/modules/cjs/loader:1311:19)
